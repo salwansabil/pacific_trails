@@ -1,0 +1,121 @@
+/*
+File: pacific.css
+GUI Assignment: Using CSS styles to match website.
+Salwan Sabil, UMass Lowell Computer Science, salwan_sabil@student.uml.edu
+Copyright (c) 2025 by Salwan. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by SS on 6/4, 2025 at 9:28 PM
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background: url("ptrbackground.jpg") repeat-x top;
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 300px;
+}
+#wrapper{
+	background-color: white;
+	box-shadow: 0 0 10px black;
+	width: 80%;
+	min-width: 600px;
+	margin: 0 auto;
+}
+header{
+	background-image: url("sunset.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #000033;
+	color: white;
+	padding: 10px;
+}
+/*building the nav */
+nav{
+	float: left;
+	width: 200px;
+	background-color: #90c7e3;
+	padding: 20px;
+	min-height: 600px;
+}
+nav ul {
+	list-style-type: none;
+	font-size: 1.2em;
+	padding-left: 0;
+}
+nav li{
+	list-style: none;
+}
+nav a{
+	color: #344873;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+.resort{
+	color: #5C7FA3;
+	font-weight: bolder;
+}
+/*working on the content*/
+#content{
+	margin-left: 200px;
+	padding: 20px;
+	overflow: auto;
+	
+}
+#content img{
+	float: left;
+	margin-right: 20px;
+	max-width: 100%;
+	height: auto;
+}
+#content p{
+	overflow: hidden;
+}
+ul{
+	list-style-image: url('marker.gif');
+	padding-left: 20px;
+}
+/*fixing contact info*/
+#contact {
+	font-size: 90%;
+	clear: left;
+}
+dt {
+	color: #000033;
+}
+/*changing the footer*/
+footer {
+	clear: both;
+	background-color: white;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 12px;
+	padding: 30px;
+	text-align: center;
+	width: 670px;
+	height: 40px;
+	padding-bottom: 5px;
+}
+
